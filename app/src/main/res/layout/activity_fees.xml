@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgnd"
+    tools:context=".studentgridview.Fees">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/jnct"
+        android:layout_centerHorizontal="true"
+        android:textColor="#B01"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees Information"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:textColor="#B01"
+        android:textStyle="bold"
+        android:layout_below="@+id/head"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:id="@+id/header"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginTop="22dp"
+        android:id="@+id/tablelay">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/payfess" />
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/receiptfees" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablelay"
+        android:textColor="@color/colornew"
+        android:fontFamily="cursive"
+        android:text="Pay fee"
+        android:layout_marginLeft="60dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablelay"
+        android:fontFamily="cursive"
+        android:text="Fees Receipt"
+        android:textColor="@color/colornew"
+        android:layout_marginLeft="220dp"
+        android:textSize="25dp"
+        />
+
+</RelativeLayout>

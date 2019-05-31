@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#751A1A</color>
+    <color name="colorPrimaryDark">#B12618</color>
+    <color name="colorText">#054C75</color>
+    <color name="colornew">#13268B</color>
+    <color name="colortwo">#1335D3</color>
+    <color name="colorbck">#572545C0</color>
+    <color name="tintcolor">#8FFF0000</color>
+    <color name="textvwcolor">#C9000000</color>
+
+    <!-- Slides color -->
+    <color name="colorslide_1">#009688</color>
+    <color name="colorslide_2">#612626</color>
+    <color name="colorslide_3">#21530E</color>
+    <color name="colorslide_4">#5F0B4E</color>
+    <color name="colorslide_5">#081564</color>
+
+    <color name="active_dots">#0351C9</color>
+    <color name="inactive_dots">#FCFCFC</color>
+
+</resources>

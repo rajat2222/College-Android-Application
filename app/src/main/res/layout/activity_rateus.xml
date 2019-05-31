@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgnd"
+    tools:context=".Rateus">
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/jnct"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="cursive"
+        android:text="Rate Us"
+        android:textAlignment="center"
+        android:textColor="#A80A0A"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/txtview"/>
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="2dp"
+        android:layout_centerInParent="true"
+        android:alpha="2"
+        android:layout_below="@+id/txtview"
+        android:background="@android:color/black"
+        />
+
+     <RatingBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rate"
+        android:layout_below="@id/txtview"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:layout_below="@id/rate"
+        android:text="Rate"
+        android:background="@drawable/sg_btn"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+</RelativeLayout>

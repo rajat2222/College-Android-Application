@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.college">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/collegelogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".faculty.Studentquery"></activity>
+        <activity android:name=".Appintro" />
+        <activity android:name=".Dev" />
+        <activity android:name=".Rateus" />
+        <activity android:name=".faculty.Studentques" />
+        <activity android:name=".Communication" />
+        <activity android:name=".facgridview.Upexam" />
+        <activity android:name=".facgridview.Upattend" />
+        <activity android:name=".facgridview.Notice" />
+        <activity android:name=".facgridview.Facproifile" />
+        <activity android:name=".studentgridview.Library" />
+        <activity android:name=".studentgridview.Course" />
+        <activity android:name=".studentgridview.Attendance" />
+        <activity android:name=".Student.Demo" />
+        <activity android:name=".Forgetpass" />
+        <activity android:name=".faculty.Facimageshow" />
+        <activity
+            android:name=".faculty.Facultywelcome"
+            android:label="@string/title_activity_facultywelcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".faculty.Faculty" />
+        <activity android:name=".studentgridview.Academicimageshow" />
+        <activity android:name=".studentgridview.Busnroutes" />
+        <activity android:name=".studentgridview.Changestudetails" />
+        <activity android:name=".studentgridview.Academic" />
+        <activity android:name=".studentgridview.Fees" />
+        <activity android:name=".studentgridview.Myprofile" />
+        <activity android:name=".Gridviewstdwlcm.Myprofile" />
+        <activity android:name=".Student.Imageshow" />
+        <activity
+            android:name=".Student.Studentwelcome"
+            android:label="@string/title_activity_studentwelcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentWelcome"
+            android:label="@string/title_activity_student_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Student.Newstudent" />
+        <activity android:name=".Student.Student" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

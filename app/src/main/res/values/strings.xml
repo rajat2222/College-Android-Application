@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">JNCT</string>
+    <string name="title_activity_studentwelcme">Student welcome</string>
+    <string name="title_activity_student_welcome">Welcome student</string>
+    <string name="title_activity_stuwelcome">StudentPortal</string>
+    <string name="action_settings">Setting</string>
+    <string name="title_activity_studentwelcome">Student Dashboard</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_forgetpass">forget Password</string>
+    <string name="action_savedetails">Save</string>
+    <string name="title_activity_facultywelcome">Faculty Dashboard</string>
+
+
+    <!-- Slide 1 title and description -->
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_about">Here it is our new college application</string>
+    <string name="slide_1_desc">Jai Narain College of Technology (JNCT), Bhopal is considered to be unique in engineering education as it is firmly rooted in local soil and capable of articulating Indian ethos.</string>
+
+    <!-- Slide 2 title and description -->
+    <string name="slide_2_title">Chairman of LNCT Group of College</string>
+    <string name="slide_2_about">Shri JAI NAIRAN CHOUKSEY</string>
+    <string name="slide_2_desc">“Technology plays a dominant role in the economic and societal development of the nation. A nation on progressive path needs technically sound human resource for achieving multifarious technical capabilities".</string>
+
+    <!-- Slide 3 title and description -->
+    <string name="slide_3_title">Here in JNCT </string>
+    <string name="slide_3_about">You will Get a great Environment</string>
+    <string name="slide_3_desc">Here We Celebrate All things, we learn , we create and we Innovate Being a Part of JNCT and JNCTs is simply a Remarkable thing.</string>
+
+    <!-- Slide 4 title and description -->
+    <string name="slide_4_title">Here in JNCT </string>
+    <string name="slide_4_about">You will Get high Qualified Faculties with calm personality and great knowledge. </string>
+    <string name="slide_4_desc">Our Faculties have a Good Communication skills with Students and a great Teaching Experience with a Great unforgetable Personality and Good Knowledge Skills.</string>
+
+    <!-- Slide 5 title and description -->
+    <string name="slide_5_title">Here in JNCT </string>
+    <string name="slide_5_about">Beside Studies , you will get the Extra-curricular Activities, this Really helps to develop your personality. </string>
+    <string name="slide_5_desc">"Extra-curricular activities play an Important Role for Developing our Personality and knowing who we are and what is our Strength. In JNCT Activites like NSS, NatureClub, Nukkad Natak etc".</string>
+
+
+    <!-- for noticing that the app is open for the first time only using shared Preferences -->
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+
+    <string name="action_Logout">Logout</string>
+    <string name="title_activity_welcome">
+
+    </string>
+
+</resources>

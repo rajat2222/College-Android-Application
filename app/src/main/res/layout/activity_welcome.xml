@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgnd"
+    tools:context=".Welcome">
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/header"
+        android:background="@drawable/jnct"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Welcome to JNCT College"
+        android:textColor="#A80A0A"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="367dp"
+        android:layout_height="277dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rgb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="     Faculty"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:checked="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="cursive"
+            android:text="     Parent / Student"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:id="@+id/rgb2"
+            android:checked="false"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogrp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-70dp"
+        android:text="Click Here"
+        android:textSize="25dp"
+        android:textColor="#5D14EB"
+        android:background="@drawable/sg_btn" />
+</RelativeLayout>
